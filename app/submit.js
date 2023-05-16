@@ -14,7 +14,7 @@ function handleSearch(event) {
       form.latitude.value = pos.coords.latitude;
       form.longitude.value = pos.coords.longitude;
       form.now.value = Date.now();
-      form.submit();
+      form.requestSubmit();
     },
     (err) => {
       console.log('Geo error:', error);
