@@ -27,7 +27,7 @@ export default function Submit() {
   return (
     <button
       onClick={handleSearch}
-      class="inline-block px-8 py-5 bg-green-500 active:bg-green-700 font-bold"
+      className="inline-block px-8 py-5 bg-green-500 active:bg-green-700 font-bold"
       type="submit"
       id="proceed"
     >

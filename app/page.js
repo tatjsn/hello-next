@@ -26,12 +26,12 @@ async function writeCookieAndRedirect(formData) {
 
 export default function Home() {
   return (
-    <div class="mx-auto max-w-xl">
-      <h1 class="p-5 text-3xl font-bold text-center tracking-widest">
+    <div className="mx-auto max-w-xl">
+      <h1 className="p-5 text-3xl font-bold text-center tracking-widest">
         近くのバス停🚌
       </h1>
-      <form method="post" action={writeCookieAndRedirect}>
-        <div class="text-center">
+      <form action={writeCookieAndRedirect}>
+        <div className="text-center">
           <Submit />
         </div>
         <input type="hidden" name="latitude" value="" required />
